@@ -1,0 +1,55 @@
+.insert {
+  opacity: 1;
+  position: fixed;
+  transition: all 0.4s;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000081;
+  color: #fff;
+  z-index: 5;
+
+  form {
+    input {
+      color: #fff;
+    }
+  }
+}
+.insertN {
+  transition: all 0.4s;
+  z-index: -2;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000081;
+  color: #fff;
+
+  form {
+    input {
+      color: #fff;
+    }
+  }
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 40px;
+  background: none;
+  outline: none;
+  color: #fff;
+  &:hover {
+    background: none;
+  }
+}

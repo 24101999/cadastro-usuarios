@@ -1,0 +1,50 @@
+.insert {
+  opacity: 1;
+  position: fixed;
+  transition: all 0.4s;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5058823529);
+  color: #fff;
+  z-index: 5;
+}
+.insert form input {
+  color: #fff;
+}
+
+.insertN {
+  transition: all 0.4s;
+  z-index: -2;
+  opacity: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5058823529);
+  color: #fff;
+}
+.insertN form input {
+  color: #fff;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 40px;
+  background: none;
+  outline: none;
+  color: #fff;
+}
+.close:hover {
+  background: none;
+}/*# sourceMappingURL=Insert.module.css.map */
